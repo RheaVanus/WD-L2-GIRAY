@@ -1,49 +1,60 @@
+/* Remove default padding and margin for body */
 body{
     padding: 0;
     margin: 0;
+    /* Set background with animated gif */
     background-image: url(img/shooting.gif);
-    background-size: cover;
+    background-size: cover; /* Make background fill entire screen */
 }
+
+/* Set global font style */
 html{
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Styling for the login form container */
 .forms{
-    max-width: 500px;
-    margin: 150px auto;
-    padding: 20px;
-    background: black;
-    border-radius: 20px;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
-    text-align: center;
-    color: white;
+    max-width: 500px; /* Limit width of the form */
+    margin: 150px auto; /* Center form horizontally with top margin */
+    padding: 20px; /* Inner spacing */
+    background: black; /* Black background */
+    border-radius: 20px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* White glow shadow */
+    text-align: center; /* Center align text inside */
+    color: white; /* White text color */
 }
 
+/* Label styling */
 .forms label{
-    display: block;
-    margin-bottom: 10px;
-    font-weight: bold;
-}
-button{
-    background-color: red;
-    color: white;
-    margin-top: 20px;
-    margin-left: 150px;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    width: 40%;
-    display: block;
-}
-button:hover{
-    background-color: white;
-    color: black;
+    display: block; /* Each label takes full width (stacked) */
+    margin-bottom: 10px; /* Space below label */
+    font-weight: bold; /* Make labels bold */
 }
 
-.textbox{
-    width: 50%;
-    padding: 8px;
-    border: 1px, solid #ccc;
-    border-radius: 4px;
+/* Button styling */
+button{
+    background-color: red; /* Red background */
+    color: white; /* White text */
+    margin-top: 20px; /* Space above button */
+    margin-left: 150px; /* Push button slightly to the right */
+    padding: 10px 15px; /* Inner spacing */
+    border: none; /* Remove border */
+    border-radius: 10px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    width: 40%; /* Button width */
+    display: block; /* Makes button a block element */
 }
-    
+
+/* Button hover effect */
+button:hover{
+    background-color: white; /* Change to white background */
+    color: black; /* Text turns black */
+}
+
+/* Input textbox styling */
+.textbox{
+    width: 50%; /* Input field width */
+    padding: 8px; /* Inner spacing */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Slightly rounded corners */
+}

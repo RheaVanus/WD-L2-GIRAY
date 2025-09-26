@@ -1,38 +1,45 @@
+/* Remove default padding and margin for body */
 body{
     padding: 0;
     margin: 0;
+    /* Set background with animated gif */
     background-image: url(img/shooting.gif);
-    background-size: cover;
+    background-size: cover; /* Make background fill the whole screen */
 }
+
+/* Set global font styles for the page */
 html{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 20px; /* Default text size */
 }
+
+/* Styling for the login container */
 .login{
-    max-width: 40%;
-    margin: 200px auto;
-    padding: 20px;
-    background: black;
-    border-radius: 10px;
-    box-shadow: 0 0 10px black;
-    text-align: center;
-    color: white;
+    max-width: 40%; /* Limit container width */
+    margin: 200px auto; /* Center container with top margin */
+    padding: 20px; /* Inner spacing */
+    background: black; /* Black background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px black; /* Shadow effect */
+    text-align: center; /* Center align text and content */
+    color: white; /* White text color */
 }
 
+/* Style for all buttons */
 button{
-    background-color: red;
-    color: white;
-    margin-top: 10px;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    width: 40%;
+    background-color: red; /* Default button background */
+    color: white; /* Text color */
+    margin-top: 10px; /* Space above each button */
+    padding: 10px 15px; /* Inner spacing */
+    border: none; /* Remove border */
+    border-radius: 10px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    width: 40%; /* Button width */
 }
+
+/* Button hover effect */
 button:hover{
-    background-color: white;
-    transform: scale(1.15);
-    color: black;
+    background-color: white; /* Change bg to white on hover */
+    transform: scale(1.15); /* Slightly enlarge button */
+    color: black; /* Change text color to black */
 }
-
-
